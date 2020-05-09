@@ -6,8 +6,8 @@ import Recipe from './recipe'
 
 const App = ()=>{
 
-  const App_Id = "28a10e9c"
-const App_key ="3fc9e22f595f482e9e13fff0a76742f3"
+  const App_Id = "28a10e9c";
+const App_key ="3fc9e22f595f482e9e13fff0a76742f3";
 const App_link = `https://api.edamam.com/search?q=chicken&app_id=${App_Id}&app_key=${App_key}`
 
 const [recipes,setrecipes] = useState([]);
